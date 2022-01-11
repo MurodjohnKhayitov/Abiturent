@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.HomeGroup {
+    width: 100%;
+    height: auto;
+    padding: 5% 0px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.HomeItem1 {
+    width: 100%;
+    padding: 3%;
+    border: 1px solid green;
+    display: flex;
+}
+.HomeItem1Text{
+    width: 50%;
+    box-sizing: border-box;
+}
+.HomeItem1Img{
+    width: 50%;
+    box-sizing: border-box;
+}
