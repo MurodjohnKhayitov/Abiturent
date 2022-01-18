@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.FooterMe {
+    width: 100%;
+    padding: 5% 5% 2% 5%;
+    background: url(../../Img/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Bulim {
+    width: 30%;
+    text-align: start;
+    border: 1px solid green;
+}
+
+.Bulim h2 {
+    color: #353535;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    font-weight: 550;
+}
+
+.Bulim ul li {
+    list-style-type: none;
+    line-height: 25px;
+    text-align: start;
+    color: #555;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Bulim ul li i {
+    margin-right: 8px;
+    color: green;
+    font-size: 18px;
+
+}
+
+.Bulim:nth-child(2) ul li:hover {
+    cursor: pointer;
+    color: black;
+    transition: .2s;
+
+}
+
+.LinkFooter {
+    padding: 0px 10%;
+    line-height: 15px;
+}
+
+.LinkFooter a {
+    width: 100%;
+    text-align: start;
+    color: #555;
+    font-weight: bolder;
+}
+
+.LinkFooter p:hover a {
+    color: black;
+    transition: all .4s;
+    -ms-transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    cursor: pointer;
+    font-size: 18px;
+
+
+}
+
+.imho {
+    width: 100%;
+    padding: 20px 20%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #353535;
+    font-family: "Andale Mono", monospace;
+margin-bottom: 0px;
+}

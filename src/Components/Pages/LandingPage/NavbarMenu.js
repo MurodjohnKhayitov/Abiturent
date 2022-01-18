@@ -7,11 +7,11 @@ export default function NavbarMenu() {
 
   const handleClick = () => setClick(!click);
   return (
-    <div>
+    <div className="fixed-top">
       <nav className="navbar fixed-top">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            ABIT<font>URENT</font>
+            TEST<font>MASTER</font>
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -46,7 +46,18 @@ export default function NavbarMenu() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Yangiliklar
+                Qullanma
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Bog'lanish
               </NavLink>
             </li>
             <li className="nav-item">

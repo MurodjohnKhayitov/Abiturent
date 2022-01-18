@@ -1,0 +1,217 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .AuthenGroup {
+     width: 100%;
+     padding: 5% 0px;
+     justify-content: center;
+     border: 1px solid black;
+ }
+
+ .Registration {
+     display: flex;
+     justify-content: space-between;
+     height: auto;
+ }
+
+ .RegistrationForm {
+     width: 50%;
+     border: 1px solid green;
+     padding: 2% 0%;
+     box-sizing: border-box;
+     text-align: center;
+ }
+
+
+ .RegistrationImg {
+     width: 50%;
+     padding: 1% 0%;
+     box-sizing: border-box;
+     border: 1px solid red;
+ }
+
+ .FormGroup {
+     width: 70%;
+     margin: auto;
+ }
+
+ .FormItems {
+     margin-top: 15px;
+     margin-bottom: 15px;
+     height: 50px;
+     align-items: center;
+
+ }
+
+ #FormItems {
+     margin-top: 15px;
+     margin-bottom: 15px;
+     height: 50px;
+     align-items: center;
+
+ }
+
+
+ .MdButton {
+     width: 100%;
+     padding: 10px 0px;
+     margin-top: 10px;
+     font-size: 17px;
+     margin-bottom: 10px;
+ }
+
+ .FormGroup a {
+     text-align: center;
+     font-size: 16px;
+     padding: 20px 0px;
+
+
+ }
+
+ .ToNextSignUp {
+     width: 100%;
+     padding: 30px 0px;
+     border: 1px solid #898989;
+     background-color: #F8F8F8;
+     text-align: center;
+     line-height: 20px;
+     margin-top: 20px;
+
+ }
+
+ .ToNextSignUp p {
+     color: #898989;
+     font-size: 15px;
+
+ }
+
+ .ToNextSignUp b {
+     color: #216eeb;
+     font-size: 22px;
+     cursor: pointer;
+
+ }
+
+ /* -------------------------- */
+ .loginCotnainer{
+     width: 80%;
+     border: 1px solid rgb(201, 200, 200);
+     margin: auto;
+
+ }
+ .login_box {
+     width: 80%;
+     height: auto;
+     background: #ffffff;
+     text-align: center;
+     padding: 5% 5%;
+     margin: auto;
+ }
+.loginFooter{
+    background-color: #eeebeb;
+    padding: 20px 0px;
+    text-align: center;
+}
+.loginFooter span{
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+}
+.loginFooter p{
+    font-size: 22px;
+    font-weight: 600;
+    color: #00B533;
+    cursor: pointer;
+    text-align: center;
+}
+ .login_box p {
+     text-align: center;
+     font-size: 25px;
+     letter-spacing: 2px;
+     font-weight: bold;
+     color: #00282F;
+     text-align: start;
+ }
+
+ input[type=text] {
+     background-color: #fff;
+     border: none;
+     border-bottom: 1px solid #C1C1C1;
+     border-top: 0px;
+     border-radius: 0px;
+     font-weight: bold;
+     outline: 0;
+     padding: 10px 0;
+     margin-bottom: 20px;
+     padding-left: 0px;
+     color: #00282F;
+ }
+
+ input[type=password] {
+     background-color: #fff;
+     border: none;
+     border-bottom: 1px solid #C1C1C1;
+     border-top: 0px;
+     border-radius: 0px;
+     font-weight: bold;
+     outline: 0;
+     padding: 10px 0px;
+     padding-left: 0px;
+     margin-bottom: 20px;
+     color: #00282F;
+ }
+
+ .form_group input:focus {
+     border-color: inherit;
+     -webkit-box-shadow: none;
+     box-shadow: none;
+     border-bottom: 2px solid #23272E;
+     outline: 0;
+     color: black;
+     transition: all .2s ease-in-out;
+ }
+
+ .form_group label {
+     font-size: 10px;
+     color: #6C6C6C;
+     font-weight: bold;
+     letter-spacing: 1px;
+     text-align: start;
+     float: left;
+     /* justify-content: right; */
+
+ }
+
+ input:focus {
+     outline: none;
+     box-shadow: 0 0 0;
+ }
+
+ label {
+     text-align: start;
+     margin-bottom: 0px;
+ }
+
+ .form_group {
+     margin-bottom: 40px;
+     outline: 0px;
+ }
+
+ .SignInFormButton {
+     width: 100%;
+     padding: 15px 0px;
+     text-align: center;
+     background-color: #00B533;
+     cursor: pointer;
+     border: none;
+     font-size: 23px;
+     font-weight: 600;
+     color: white;
+ }
+ .SpanPassword{
+     text-align: center;
+     top: 10px;
+ }

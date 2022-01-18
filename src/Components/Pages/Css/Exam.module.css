@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ExamGroup {
+    width: 100%;
+    padding: 5% 5%;
+    border: 1px solid black;
+}
+
+.ExamItem1 {
+    width: 100%;
+    padding: 1% 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid green;
+}
+
+.Testname {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-family: "Andale Mono", monospace;
+    font-weight: 600;
+    padding: 3% 10%;
+    border: 1px solid black;
+}
+
+.Card {
+    width: 30%;
+
+    /* border: 1px solid black; */
+}
+
+.Card:hover {
+    cursor: pointer;
+
+
+}
+
+.CardHeader {
+    text-align: center;
+    font-size: 22px;
+    background: rgba(60, 134, 218, 0.7);
+    font-weight: 550;
+    color: black;
+
+}
+
+
+
+#CardListGroup1 {
+    padding: 5px 8px;
+
+}
+
+.CardCheckIcon {
+    margin-right: 5px;
+    color: green;
+}
+
+.CardFooterGroup {
+    background: rgba(60, 134, 218, 0.7);
+    width: 100%;
+    height: 100%;
+    padding: 10px 10%;
+    text-align: center;
+}
+
+.CardFooterGroup:hover {
+    background: rgba(91, 152, 221, 0.7);
+    transition: .3s;
+
+}
+
+.CardFooterGroup:hover a {
+    color: rgb(17, 17, 17);
+    transition: .3s;
+    transform: scale(.5);
+
+}
+
+.CardFooter {
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    font-weight: 550;
+}

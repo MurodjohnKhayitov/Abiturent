@@ -6,6 +6,7 @@ import Home from "../LandingPage/Home";
 import Exam from "../LandingPage/Exam";
 import News from "../LandingPage/News";
 import Registration from "../LandingPage/Registration";
+import Footer from "../LandingPage/Footer";
 export default function RouterGroup() {
   return (
     <div>
@@ -16,7 +17,9 @@ export default function RouterGroup() {
         <Route path="/exam" component={Exam} />
         <Route path="/news" component={News} />
         <Route path="/authentication" component={Registration} />
+
       </Router>
+      <Footer/>
     </div>
   );
 }
